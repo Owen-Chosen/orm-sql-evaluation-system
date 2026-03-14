@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+
+  sql:
+    init:
+      mode: never
+
+logging:
+  level:
+    org.springframework.jdbc.core: DEBUG
